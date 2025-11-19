@@ -1,2 +1,43 @@
 ## Guión de clases. --> La función print
+print('hola frustris'). # cadena con comillas simples
+print("¿Como estais?") # cadena con comillas dobles
+
+cadena = " esto es una cadena"
+
+## las funciones se invocan de la siguiente manera 
+# Función(agumentos)
+## argumentos de la función print()
+
+'''
+a= 1
+b = 'cadena Uno'
+c = 'True'
+'''
+
+# la función print no devuelve nada !!! sólo muestra datos
+
+# mas de una Instruccíon por linea
+a = 1; c = 'cadena'; print(a); print(c)
+
+# caracteres de escape '\n' y '\t'
+
+#multiples argumentos en la función print()
+
+'''
+a = 10
+print( " Messi es", 'El mejor del ' , "Mundo", a)
+'''
+
+# argumentos posicionales
+
+print('pos_1', 'pos_2' , 'pos_3')
+
+# palabras clave (end= y sep=)
+
+print("Mi nombre es", "Python.", end=" ")
+print("Monty Python.")
+
+print( 'la', 'casa', 'de', 'papel', sep='***' ,end="?¿") # deben colocarse al final porque los argumentos con nombre van despues de los posicionales
+print('bravo')
+
 
