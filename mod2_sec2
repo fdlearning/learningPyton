@@ -1,5 +1,5 @@
 ## Guión de clases. --> La función print
-print('hola frustris'). # cadena con comillas simples
+print('hola frustis'). # cadena con comillas simples
 print("¿Como estais?") # cadena con comillas dobles
 
 cadena = " esto es una cadena"
