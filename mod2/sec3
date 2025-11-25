@@ -1,0 +1,51 @@
+##Hey FRUSTIS
+
+## literales de python
+
+123 es un literal por que represente un valor.
+
+C no es un literal porque depende del contexto para representar un valor --> C puede ser una constante en alguna fórmula matemática.
+
+Con prin() podemos hacer una prueba.
+
+print( 2) --> lo trata como un entero
+
+print("2") --> lo trata como una cadena
+
+Desde la versión python3 se permite escribir los números enteros mas largos con el uso de guiones bajos 
+222_222_222
+
+1111.1111.1111 python lo trata como decimal
+111,111,1111 prohibido usar comas en pithon --> estoy lo leerá como una tupla
+1111 1111 1111 1111 dara fallos tambien
+*** NÚMEROS OCTALES***
+
+print(0o67) --> 0 + la letra o minuscula o bien "O" mayuscula
+te hace la conversion de ese número.
+
+**** NÚMEROS HEXADECIMALES****
+
+se representan  (0x) o bien (0X)
+***Números binarios***
+(0b) o (0B)
+
+
+Numeros flotantes
+
+--> parte decimal   NO vacía
+python acepta esto 2.0 y 2.
+o bien 0.4 y .4
+
+REPRESENTACIÓN DE EXPONENTES Y NOTACIÓN CIENTÍFICA
+
+(3e8) (3E8)
+
+1234 x24 = 1234E24
+0.0000001 = 0-e7
+
+
+Valores booleanos 
+
+true 1 false 2
+
+
