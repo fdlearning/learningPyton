@@ -1,0 +1,186 @@
+Guion de clase.
+
+OPERADORES ~ BÁSICOS.
+
+    Exponenciación.
+    
+    Cuando ambos ** son enteros el resultado es entero también.
+    Cuando al menos un argumento es flotante el resultado es flotante también.
+    
+    Multiplicación.
+    
+    --> Se mantiene la misma regla con los exponentes en cuanto a los flotantes vs enteros.
+    
+    División.
+    
+    divisor/dividendo.
+    El resultado producido por el operador de división siempre es flotante, sin importar si a primera vista el resultado es flotante: 1 / 2, o si parece ser 		completamente entero: 2 / 1.
+    
+    
+    División entera. O "floor división en inglés"
+    
+    // 
+    
+    En cuanto al resultado --> Esta ausente para los enteros--> siempre es igual a 0 para los flotantes. Los resultados siempre son redondeados.
+    
+    
+    El redondeo siempre va hacia abajo --- 
+    
+    En el caso de los numeros enteros si es negativo (-1.5 --> baja a .. --> -2)
+    
+    En el caso de los números decimales; 
+    
+    	-si un resultado es 1.5 (sin redondeo ) --> baja al entero mas cercano 1.0 
+    
+    	-en el caso de numeros negativos lo mismo si es -1.5 baja a -2.0 
+    
+    Residuo (modulo).
+    
+    --> los ejemplos definen mejor.
+    
+    
+    Como no dividir-
+    --> nunca dividir entre 0 - erorr
+    
+    Suma.
+    
+    Con que uno de los 2 valores sea decimal el resultado es decimal.
+    
+    
+    El operador de resta, operadores unarios y binarios.
+    
+    -->El operador "-" puede cambiar de signo un número.
+    -->Espera dos argumentos a cada lado "minuendo" y "sustraendo"
+    
+    --> También existe un operador unario + pero no tiene mucho sentido.
+   
+ 
+   
+   Operadores y sus prioridades.
+   
+   --> En python los operadores de mayor jerarquía deben realizar sus operaciones antes.
+   
+   	--> Un enlace de un operador determina el orden en que se computan las operaciones entre operadores que tienen la misma prioridad.
+   	
+   	--> Los operadores de exponenciacion utilizan un enladado DERECHO	
+   	
+   	
+   	Lista de prioridades.
+   	
+   	
+   			1) **
+   			
+   			2) + , -   (UNARIOS)
+   			
+   			3) *,/,//,%
+   			
+   			4) + - (BINARIOS)
+   			
+   	Operadores y paréntesis.
+   	
+   	-->Las sub-expresiones dentro de los parétesis se calculan primero.
+   	
+   	--> Siempre desde dentro hacia afuera.
+   	--> 
+   	--> RESULTADO EJERCICIO FINAL
+   	
+   	
+   	-->parentesis = (((8 ** 2) / (14 // 2) * (-4 * -5.)) - ( 76 +256))
+						64			7			20.0
+  
+	parentesis = ((64 / 7 * 20.0) - ( 76 +256))
+	
+	parentesis = ((182.85714285714283) - (332)
+
+	parentesis 182.85714285714283 -332
+	
+	
+	CODIGO:
+	
+	# Exponenciacion.
+'''
+exponente_A = 2 ** 3 # los espacios no son necesarios pero se ordena mejor el código.
+exponente_B = 2. ** 3
+exponente_C = 2 ** 3.0
+exponente_D = 2. ** 3.
+
+print(exponente_B)
+'''
+#Multiplicación.
+'''
+multi_A = 2 * 3
+multi_B = 2.0 * 3
+multi_C = 2 * 3.
+multi_D = 2. * 3.
+
+print(multi_A)
+'''
+# División.
+'''
+div_A = 6 / 3
+div_B = 6 / 3.0
+div_C = 6.0 / 3.
+div_C = 6. / 3
+
+print(div_A)
+'''
+# División entera.
+'''
+dive_A = 6 // 3
+dive_B = 6 // 3.
+dive_C = 6.0 // 3
+dive_D = 6. // 3.
+
+print(dive_A)
+'''
+'''
+dive_E = 6 // 4
+dive_F = 6. // 4
+dive_G = -6 // 4
+dive_H = 6. // -4
+
+print(dive_E)
+'''
+
+# Residuo (módulo).
+'''
+md_A =  14 % 4
+
+print(md_A)
+'''
+
+# Suma
+'''
+suma_A = -4 + 8
+suma_B = -4. + 8
+suma_C = 4.+ 8.
+
+print(suma_A)
+'''
+
+# Resta y operadores binarios / unarios.
+'''
+rest_A = -4 - 4 
+rest_B = 4. - 8 
+rest_C = -1.1
+
+print(rest_A)
+'''
+
+# Operadores,enlace,jerarquía de operadores.
+'''
+opers_A = 9 % 6 % 2
+opers_B = 2 ** 2 ** 3
+opers_C = 2 * 3 % 5
+    
+print(opers_A)
+'''
+
+# Operadores y parentesis
+'''
+parentesis = (((8 ** 2) / (14 // 2) * (-4 * -5.)) - ( 76 +256))
+#print(parentesis)
+print(76 + 256)
+'''
+
+
