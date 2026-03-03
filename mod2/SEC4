@@ -1,0 +1,37 @@
+
+print(1)
+'''
+
+# Según la convención
+# Debemos usar minúsculas y si acaso _ o bien letras mixtas si ese estilo es el predominante.
+
+una_variable = 'una_variable'
+unaVariable = 'unaVariable'
+#print(una_variable)
+
+#Palabras clave.
+
+'''
+false = 'falso'
+
+#print(False)
+'''
+
+#Creación de una variable.
+
+# No es necesario declararla solo asignarle un valor y así se declara
+
+valor = 1
+valor_a,valor_b,valor_c = 'a','b','c'
+#print(valor)
+
+
+# Asignación de valor a una variable ya existente
+valor = 2
+#print(valor)
+
+# Operadores abreviados.
+transformer = 125
+#print(transformer)
+transformer %= 5
+print(transformer)
